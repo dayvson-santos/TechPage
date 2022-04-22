@@ -1,0 +1,49 @@
+header {
+    display: flex;
+    height: 10px;
+    border: 1px solid blue;
+    height: auto;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    background-color: #C4170C;
+    padding-top: none;
+
+}
+
+#header-titulo {
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+}
+.header-button {
+    margin-left: auto;
+}
+
+button {
+   margin: 20px 5px;
+   padding: 20px;
+   background-color: #fff;
+   border-radius: 5%;
+   border: none;
+   font-family: 'Open Sans';
+   font-weight: bold;
+}
+
+button:hover {
+    background-color: rgb(105, 204, 105);
+    cursor:pointer;
+}
+
+h1, h2 {
+    color: #C4170C;
+    text-align: center;
+}
+
+p {
+    font-family:'Open Sans';
+    font-size: x-large;
+    text-align: justify;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
