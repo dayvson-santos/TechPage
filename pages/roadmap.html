@@ -1,12 +1,339 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Roadmap</title>
-</head>
-<body>
-    
-</body>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../assets/css/roadmap.css" />
+  </head>
+
+  <body>
+    <input
+      id="close-menu"
+      class="close-menu"
+      type="checkbox"
+      aria-label="Close menu"
+      role="button"
+    />
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <aside class="menu white-bg">
+      <div class="conteudo-principal menu-content">
+        <h1 onclick="getElementById('close-menu').checked = false;">
+          <a href="#home">LOGO</a>
+        </h1>
+
+        <nav>
+          <ul onclick="getElementById('close-menu').checked = false;">
+            <li><a href="#intro">Intro</a></li>
+            <li><a href="#trilhas">Trilhas</a></li>
+            <li><a href="#techs">Techs</a></li>
+            <li><a href="#fundamentos">Fundamentos</a></li>
+            <li><a href="#mercado">Mercado</a></li>
+            <li><a href="#sugestoes">Sugestões</a></li>
+          </ul>
+        </nav>
+      </div>
+    </aside>
+
+    <div class="espaco-menu"></div>
+
+    <section id="home" class="intro main-bg section">
+      <div class="conteudo-principal intro-content">
+        <div class="intro-text-content">
+          <h2>Estude Junto</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio rem
+            alias repudiandae quaerat. Et nisi reprehenderit quisquam animi
+            rerum quaerat modi, unde doloribus impedit dolorem corrupti fugit
+            porro sequi sed.
+          </p>
+        </div>
+        <div class="intro-img">
+          <img src="../assets/img/together.svg" alt="Logo de HTML, CSS e JS." />
+        </div>
+      </div>
+    </section>
+
+    <section id="intro" class="white-bg section">
+      <div class="conteudo-principal top3-content">
+        <h2>Começando do Jeito Certo</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque minus
+          velit cum adipisci explicabo ipsa porro dignissimos autem illum!
+          Possimus commodi voluptate non architecto vitae eligendi eos
+          voluptates perspiciatis ullam.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque minus
+          velit cum adipisci explicabo ipsa porro dignissimos autem illum!
+          Possimus commodi voluptate non architecto vitae eligendi eos
+          voluptates perspiciatis ullam.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque minus
+          velit cum adipisci explicabo ipsa porro dignissimos autem illum!
+          Possimus commodi voluptate non architecto vitae eligendi eos
+          voluptates perspiciatis ullam.
+        </p>
+      </div>
+    </section>
+
+    <section id="trilhas" class="grid-one main-bg section">
+      <div class="conteudo-principal grid-one-content">
+        <h2 class="grid-main-heading">Trilhas</h2>
+        <p class="grid-description">Uma breve descrição.</p>
+
+        <div class="grid">
+          <article>
+            <h3>Frontend</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
+              cum delectus molestias. Atque doloribus nobis laudantium esse ut,
+              non commodi maxime distinctio veritatis unde, reprehenderit minus
+              ad dolores provident maiores.
+            </p>
+          </article>
+          <article>
+            <h3>Backend</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
+              cum delectus molestias. Atque doloribus nobis laudantium esse ut,
+              non commodi maxime distinctio veritatis unde, reprehenderit minus
+              ad dolores provident maiores.
+            </p>
+          </article>
+          <article>
+            <h3>DevOps</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
+              cum delectus molestias. Atque doloribus nobis laudantium esse ut,
+              non commodi maxime distinctio veritatis unde, reprehenderit minus
+              ad dolores provident maiores.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="techs" class="grid-one white-bg section">
+      <div class="conteudo-principal grid-one-content">
+        <h2 class="grid-main-heading">Skills do Momento</h2>
+        <p class="grid-description">Uma breve descrição.</p>
+
+        <div class="grid">
+          <div class="galeria-techs">
+            <img
+              src="../assets/img/react.png"
+              alt="Imagem do ícone do ReactJs"
+            />
+          </div>
+          <div class="galeria-techs">
+            <img src="../assets/img/nodejs.png" alt="Imagem do Ícone NodeJs" />
+          </div>
+          <div class="galeria-techs">
+            <img src="../assets/img/docker.png" alt="Imagem do Ícone Docker" />
+          </div>
+          <div class="galeria-techs">
+            <img
+              src="../assets/img/mongodb.png"
+              alt="Imagem do Ícone MongoDb"
+            />
+          </div>
+          <div class="galeria-techs">
+            <img src="../assets/img/github.png" alt="Imagem do Ícone Github" />
+          </div>
+          <div class="galeria-techs">
+            <img
+              src="../assets/img/tailwind.png"
+              alt="Imagem do Ícone TailwindCss"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="fundamentos" class="grid-one main-bg section">
+      <div class="conteudo-principal grid-one-content">
+        <h2 class="grid-main-heading">Fundamentos</h2>
+        <p class="grid-description">Uma breve descrição.</p>
+
+        <div class="grid">
+          <article>
+            <h3>HTML 5</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
+              cum delectus molestias. Atque doloribus nobis laudantium esse ut,
+              non commodi maxime distinctio veritatis unde, reprehenderit minus
+              ad dolores provident maiores.
+            </p>
+          </article>
+          <article>
+            <h3>CSS 3</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
+              cum delectus molestias. Atque doloribus nobis laudantium esse ut,
+              non commodi maxime distinctio veritatis unde, reprehenderit minus
+              ad dolores provident maiores.
+            </p>
+          </article>
+          <article>
+            <h3>JavaScript</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
+              cum delectus molestias. Atque doloribus nobis laudantium esse ut,
+              non commodi maxime distinctio veritatis unde, reprehenderit minus
+              ad dolores provident maiores.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="mercado" class="white-bg section">
+      <div class="conteudo-principal top3-content">
+        <h2>Principais Linguagens do Mercado</h2>
+        <p>
+          The release of Apple Silicon-based Macs at the end of last year
+          generated a flurry of news coverage and some surprises at the
+          machine’s performance. This post details some background information
+          on the experience of porting Firefox to run natively on these CPUs.
+        </p>
+        <p>
+          We’ll start with some background on the Mac transition and give an
+          overview of Firefox internals that needed to know about the new
+          architecture, before moving on to the concept of Universal Binaries.
+        </p>
+
+        <div class="responsive-table">
+          <table>
+            <caption>
+              As mais procuradas
+            </caption>
+
+            <thead>
+              <tr>
+                <th>Título 1</th>
+                <th>Título 2</th>
+                <th>Título 3</th>
+                <th>Título 4</th>
+                <th>Título 5</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>Conteúdo 1</td>
+                <td>Conteúdo 2</td>
+                <td>Conteúdo 3</td>
+                <td>Conteúdo 3</td>
+                <td>Conteúdo 3</td>
+              </tr>
+              <tr>
+                <td>Conteúdo 1</td>
+                <td>Conteúdo 2</td>
+                <td>Conteúdo 3</td>
+                <td>Conteúdo 3</td>
+                <td>Conteúdo 3</td>
+              </tr>
+              <tr>
+                <td>Conteúdo 1</td>
+                <td>Conteúdo 2</td>
+                <td>Conteúdo 3</td>
+                <td>Conteúdo 3</td>
+                <td>Conteúdo 3</td>
+              </tr>
+            </tbody>
+
+            <tfoot>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="sugestoes" class="intro main-bg section">
+      <div class="conteudo-principal intro-content">
+        <div class="intro-text-content">
+          <h2>Sua Opinião Importa</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+            molestiae sint odit eaque accusantium doloribus repellat tempore
+            error possimus, voluptatibus atque vel quidem, nulla aut excepturi
+            ad dolorem. Vel, culpa?
+          </p>
+        </div>
+        <div class="intro-img">
+          <img src="../assets/img/contato.svg" alt="Logo de HTML, CSS e JS." />
+        </div>
+        <div class="contact-form">
+          <fieldset class="form-grid">
+            <legend>Sugestões</legend>
+
+            <div class="form-group">
+              <label for="nome">Nome</label>
+              <input
+                type="text"
+                name="first-name"
+                id="nome"
+                placeholder="Seu Nome"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="sobrenome">Sobrenome</label>
+              <input
+                type="text"
+                name="last-name"
+                id="sobrenome"
+                placeholder="Seu Sobrenome"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Seu e-mail"
+              />
+            </div>
+
+            <div class="form-group full-width">
+              <label for="message">Mensagem</label>
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+                placeholder="Sua Mensagem"
+              ></textarea>
+            </div>
+
+            <div class="form-group full-width">
+              <button type="submit">Enviar Mensagem</button>
+            </div>
+          </fieldset>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer" class="footer white-bg">
+      <p>Desenvolvido pela equipe StartSe 4</p>
+    </footer>
+
+    <a class="voltar-topo" href="#">➤</a>
+  </body>
 </html>
